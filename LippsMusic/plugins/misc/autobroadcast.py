@@ -8,41 +8,45 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 AUTO_GCASTS = f"{AUTO_GCAST}" if AUTO_GCAST else False
 
-START_IMG_URLS = "https://graph.org/file/e2e763504b2acfa6a5012.jpg"
+START_IMG_URLS = "https://graph.org/file/ffe71cc40348f849a078c.jpg"
 
-MESSAGES = f"""**๏ ᴛʜɪs ɪs ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs + ᴄʜᴀɴɴᴇʟs ᴠᴄ. 💌
+MESSAGES = f"""💗       ˹@{app.username}˼ ♪       💗
 
-🎧 ᴘʟᴀʏ + ᴠᴘʟᴀʏ + ᴄᴘʟᴀʏ 🎧
+😭 иσтнιиg ѕρєᴄιαℓ ᴊυѕт αиσтнєʀ мυѕιᴄ вσт ✅🔺
 
-➥ sᴜᴘᴘᴏʀᴛᴇᴅ ᴡᴇʟᴄᴏᴍᴇ - ʟᴇғᴛ ɴᴏᴛɪᴄᴇ, ᴛᴀɢᴀʟʟ, ᴠᴄᴛᴀɢ, ʙᴀɴ - ᴍᴜᴛᴇ, sʜᴀʏʀɪ, ʟᴜʀɪᴄs, sᴏɴɢ - ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅ, ᴇᴛᴄ... ❤️
+✨ ɴᴏ ᴅᴏᴡɴᴛɪᴍᴇs
+😘 ɴᴏ ᴘʀᴏᴍᴏᴛɪᴏɴs 
+🥀 ɴᴏ ʟᴀɢ ɪssᴜᴇs 
+💻 ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
 
-🔐ᴜꜱᴇ » [/start](https://t.me/{app.username}?start=help) ᴛᴏ ᴄʜᴇᴄᴋ ʙᴏᴛ
-
-➲ ʙᴏᴛ :** @{app.username}"""
+‣ 𝖢𝗁𝖾𝖼𝗄 𝖲𝗍𝖺𝗍𝗎𝗌 𝖮𝖿 𝖳𝗁𝖾 𝖡𝗈𝗍'𝗌 𝖧𝖾𝗋𝖾
+‣ 𝖵𝗂𝗌𝗂𝗍 @ThinkGrowMore 𝖥𝗈𝗋 𝖬𝗈𝗋𝖾.."""
 
 
 BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Source Code", url=f"https://github.com/Lippsxd/LippsMusicBot")
+            InlineKeyboardButton("α∂∂ ιи уσυʀ ɢʀσυρ", url=f"https://t.me/KritikaMusicBot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
         ]
     ]
 )
 
-MESSAGE = f"""**๏ ᴛʜɪs ɪs ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs + ᴄʜᴀɴɴᴇʟs ᴠᴄ. 💌
+MESSAGE = f"""💗       ˹@{app.username}˼ ♪       💗
 
-🎧 ᴘʟᴀʏ + ᴠᴘʟᴀʏ + ᴄᴘʟᴀʏ 🎧
+😭 иσтнιиg ѕρєᴄιαℓ ᴊυѕт αиσтнєʀ мυѕιᴄ вσт ✅🔺
 
-➥ sᴜᴘᴘᴏʀᴛᴇᴅ ᴡᴇʟᴄᴏᴍᴇ - ʟᴇғᴛ ɴᴏᴛɪᴄᴇ, ᴛᴀɢᴀʟʟ, ᴠᴄᴛᴀɢ, ʙᴀɴ - ᴍᴜᴛᴇ, sʜᴀʏʀɪ, ʟᴜʀɪᴄs, sᴏɴɢ - ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅ, ᴇᴛᴄ... ❤️
+✨ ɴᴏ ᴅᴏᴡɴᴛɪᴍᴇs
+😘 ɴᴏ ᴘʀᴏᴍᴏᴛɪᴏɴs 
+🥀 ɴᴏ ʟᴀɢ ɪssᴜᴇs 
+💻 ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
 
-🔐ᴜꜱᴇ » [/start](https://t.me/{app.username}?start=help) ᴛᴏ ᴄʜᴇᴄᴋ ʙᴏᴛ
-
-➲ ʙᴏᴛ :** @{app.username}"""
+‣ 𝖢𝗁𝖾𝖼𝗄 𝖲𝗍𝖺𝗍𝗎𝗌 𝖮𝖿 𝖳𝗁𝖾 𝖡𝗈𝗍'𝗌 𝖧𝖾𝗋𝖾
+‣ 𝖵𝗂𝗌𝗂𝗍 @ThinkGrowMore 𝖥𝗈𝗋 𝖬𝗈𝗋𝖾.."""
 
 BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(" ᴋɪᴅɴᴀᴘ ᴍᴇ ", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
+            InlineKeyboardButton(" α∂∂ ιи уσυʀ ɢʀσυρ ", url=f"https://t.me/KritikaMusicBot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
         ]
     ]
 )
