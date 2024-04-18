@@ -24,7 +24,7 @@ MESSAGES = f"""**๏ ᴛʜɪs ɪs ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴜsɪᴄ ᴘʟᴀ�
 BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Source Code", url=f"")
+            InlineKeyboardButton("Source Code", url=f"https://github.com/Lippsxd/LippsMusicBot")
         ]
     ]
 )
