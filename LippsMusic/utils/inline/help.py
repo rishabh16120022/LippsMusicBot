@@ -85,12 +85,6 @@ def help_pannel(_, START: Union[bool, int] = None):
                     text=_["H_B_14"],
                     callback_data="help_callback hb14",
                 ),
-            ],
-            [
-                InlineKeyboardButton(
-                    text=_["BACK_BUTTON"],
-                    callback_data=f"settings_back_helper",
-                ),
                 InlineKeyboardButton(
                     text=_["H_B_15"],
                     callback_data="help_callback hb15",
@@ -101,6 +95,19 @@ def help_pannel(_, START: Union[bool, int] = None):
     )
     return upl
 
+
+def help_back_markup(_):
+    upl = InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton(
+                    text=_["BACK_BUTTON"],
+                    callback_data=f"settings_back_helper",
+                ),
+            ]
+        ]
+    )
+    return upl
 
 
 
