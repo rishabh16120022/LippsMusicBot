@@ -33,25 +33,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "◔—————————"
+        bar = "ʜᴇʟʟᴏ 🙋‍♂️"
     elif 10 < umm < 20:
-        bar = "—◓————————"
+        bar = "ɪ ᴀᴍ ʜᴜɴɢᴀᴍᴀ ᴍᴜsɪᴄ ʙᴏᴛ ❤"
     elif 20 <= umm < 30:
-        bar = "——◐———————"
+        bar = "ᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❤"
     elif 30 <= umm < 40:
-        bar = "———◑——————"
+        bar = "ɪ ᴍ ʜᴇʀᴇ ᴛᴏ ɢɪᴠᴇ ʏᴏᴜ ʟᴀɢ ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ"
     elif 40 <= umm < 50:
-        bar = "————◒—————"
+        bar = "ɪɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ"
     elif 50 <= umm < 60:
-        bar = "—————◑————"
+        bar = "ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ"
     elif 60 <= umm < 70:
-        bar = "——————◔———"
+        bar = "ᴊᴏɪɴ ᴍʏ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ ᴅᴇᴠ."
     elif 70 <= umm < 80:
-        bar = "———————◑——"
+        bar = "ᴇɴᴊᴏʏ ʟᴀɢғʀᴇᴇ ᴍᴜsɪᴄ ᴡɪᴛʜ ʜᴜɴɢᴀᴍᴀ ᴍᴜsɪᴄ ❤"
     elif 80 <= umm < 95:
-        bar = "————————◔—"
+        bar = "🌸🌸🌸🌸"
     else:
-        bar = "—————————◐"
+        bar = "ᴛʜᴀɴᴋ ʏᴏᴜ ❤"
     buttons = [
         [
             InlineKeyboardButton(
@@ -64,7 +64,14 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),            
+            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="💥 ᴊᴏɪɴ Ɦᴇʀᴇ & sᴜᴘᴘᴏʀᴛ 💞",url=f"https://t.me/infinitelovefeelboyxd"),
+            InlineKeyboardButton(text="🥀 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ  💞",url=f"https://t.me/Stylish_Bio_Dp_0"),
+            InlineKeyboardButton(text="❤ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❤",url=f"https://t.me/niksonfire"),
+            InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀",url=f"https://t.me/feel_boy_1"),
+
+
+
         ],
     ]
     return buttons
