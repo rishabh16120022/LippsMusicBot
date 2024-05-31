@@ -31,7 +31,7 @@ def private_panel(_):
             InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
         ],
         [
-           InlineKeyboardButton(text=_["❤ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❤"], url=f"https://t.me/Niksonfire"),
+           InlineKeyboardButton(text=_["Owner❤"], url=f"https://t.me/feel_boy_1"),
         ],
     ]
     return buttons
