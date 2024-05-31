@@ -24,7 +24,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 99999))
 
 # Chat id of a group for logging bot's activities
 #LOG_ID = int(getenv("LOG_ID", "-1001957871522"))
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002170595668"))
 
 # Get this value from @RoseBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "6587731758"))
