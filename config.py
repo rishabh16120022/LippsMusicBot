@@ -20,14 +20,14 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Lipps Music Bot")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 99999))
 
 # Chat id of a group for logging bot's activities
 #LOG_ID = int(getenv("LOG_ID", "-1001957871522"))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @RoseBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "2101893551"))
+OWNER_ID = int(getenv("OWNER_ID", "6587731758"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -37,7 +37,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Lippsxd/LippsMusicBot",
+    "https://github.com/rishabh16120022/LippsMusicBot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "lippsxd")
 GIT_TOKEN = getenv(
@@ -87,16 +87,16 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/8bdea9d933e1a0bb08035.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/b0ee2d9161f0c4436dd3a.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "LippsMusic/assets/Ping.jpeg",
+    "https://telegra.ph/file/3d968ac52d302c706869f.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "LippsMusic/assets/Playlist.jpeg",
+    "https://telegra.ph/file/df9ed61f2c1de16d94975.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
@@ -106,17 +106,17 @@ GLOBAL_IMG_URL = getenv(
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "LippsMusic/assets/Stats.jpeg",
+    "https://telegra.ph/file/71af14160435cf4fb328c.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "LippsMusic/assets/Audio.jpeg",
+    "https://telegra.ph/file/12a643f987b3d3691e52a.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "LippsMusic/assets/Video.jpeg",
+    "https://telegra.ph/file/48fd2ac34520da8bb0d7e.jpg",
 )
 
 STREAM_IMG_URL = getenv(
