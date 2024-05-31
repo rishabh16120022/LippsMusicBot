@@ -70,13 +70,14 @@ def stream_markup_timer(_, chat_id, played, dur):
 
 
        ],
-    ]
+    
     [ 
             InlineKeyboardButton(text="💥 ᴊᴏɪɴ Ɦᴇʀᴇ & sᴜᴘᴘᴏʀᴛ 💞",url=f"https://t.me/infinitelovefeelboyxd"),
             InlineKeyboardButton(text="🥀 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ  💞",url=f"https://t.me/Stylish_Bio_Dp_0"),
             InlineKeyboardButton(text="❤ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❤",url=f"https://t.me/niksonfire"),
             InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀",url=f"https://t.me/feel_boy_1"),
 
+    ]
     ]
     return buttons
 
